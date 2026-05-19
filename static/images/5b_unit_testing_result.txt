@@ -1,0 +1,21 @@
+theia@theiadocker-anthonycordo:/home/project/final_project/oaqjp-final-pro
+ject-emb-ai$ python3 -m unittest test_emotion_detection.py -v 2>&1
+test_anger_emotion (test_emotion_detection.TestEmotionDetector)
+Test that anger is the dominant emotion for an angry statement. ... ok
+test_blank_entry (test_emotion_detection.TestEmotionDetector)
+Test that blank input returns None for all emotions. ... ok
+test_disgust_emotion (test_emotion_detection.TestEmotionDetector)
+Test that disgust is the dominant emotion for a disgusting statement. ... ok
+test_fear_emotion (test_emotion_detection.TestEmotionDetector)
+Test that fear is the dominant emotion for a frightening statement. ... ok
+test_joy_emotion (test_emotion_detection.TestEmotionDetector)
+Test that joy is the dominant emotion for a happy statement. ... ok
+test_sadness_emotion (test_emotion_detection.TestEmotionDetector)
+Test that sadness is the dominant emotion for a sad statement. ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.770s
+
+OK
+theia@theiadocker-anthonycordo:/home/project/final_project/oaqjp-final-pro
+ject-emb-ai$ 
