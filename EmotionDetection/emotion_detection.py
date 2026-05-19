@@ -1,5 +1,6 @@
 """Emotion detection module using Watson NLP Embedded AI."""
 
+import json
 import requests
 
 
@@ -21,7 +22,7 @@ def emotion_detector(text_to_analyze):
             'dominant_emotion': None,
         }
 
-    response_data = response.json()
+    response_data = json.loads(response.text)
 
     emotions = response_data.get('emotionPredictions', [{}])[
         0].get('emotion', {})
