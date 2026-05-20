@@ -1,0 +1,23 @@
+
+
+
+Result of Emotion Detection
+
+For the given statement, the system response is 
+'anger': 0.0043339236, 
+'disgust': 0.00037549555, 'fear': 0.0034732423, 
+'joy': 0.9947189 and 'sadness': 0.012704818. 
+The dominant emotion is joy.
+
+theia@theiadocker-anthonycordo:/home/project/final_project/oaqjp-final
+-project-emb-ai$ python3 server.py
+ * Serving Flask app 'server'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.34.220:5000
+Press CTRL+C to quit
+127.0.0.1 - - [19/May/2026 19:10:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2026 19:10:08] "GET /static/mywebscript.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/May/2026 19:10:40] "GET /emotionDetector?textToAnalyze=I%20am%20so%20happy%20I%20am%20doing%20this. HTTP/1.1" 200 -
